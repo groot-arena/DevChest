@@ -19,10 +19,10 @@ Simplify and accelerate the setup of your Linux environment with DevChest, a cur
 To set up your environment with DevChest, you can download and run the [install.sh](https://raw.githubusercontent.com/groot-arena/DevChest/main/install.sh) script or run the following `cURL` or `wget` command:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/groot-arena/DevChest/main/install.sh | sudo bash
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/groot-arena/DevChest/main/install.sh)"
 ```
 ```
-wget -qO- https://raw.githubusercontent.com/groot-arena/DevChest/main/install.sh | sudo bash
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/groot-arena/DevChest/main/install.sh)"
 ```
 
 ## Supported Tools
