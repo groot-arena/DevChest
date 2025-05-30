@@ -14,6 +14,20 @@ Simplify and accelerate the setup of your Linux environment with DevChest, a cur
 * `sudo` privileges to install packages and configure the system.
 * Internet connection for downloading scripts and dependencies.
 
+## ⚠️ Security Notice
+
+Before running any installation script, it is strongly recommended that you **read and review its contents** to ensure it is safe, free of bugs, and does not contain any malicious code.
+
+You can review the core components of DevChest directly on GitHub:
+
+- 🔧 [Main installation script (`install.sh`)](https://github.com/groot-arena/DevChest/blob/main/install.sh)  
+- 🧩 [Utility functions (`utils.sh`)](https://github.com/groot-arena/DevChest/blob/main/utils.sh)  
+- 📂 [All individual tool scripts (`/scripts` directory)](https://github.com/groot-arena/DevChest/tree/main/scripts)
+
+By reviewing the code, you maintain full control and transparency over what is being executed on your system.
+
+---
+
 ## Installation
 
 To set up your environment with DevChest, you can download and run the [install.sh](https://raw.githubusercontent.com/groot-arena/DevChest/main/install.sh) script or run the following `cURL` or `wget` command:
