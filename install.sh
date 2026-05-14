@@ -78,7 +78,7 @@ if [[ -z "${_install_dir}" ]] || [[ ! -f "${_install_dir}/lib/common.sh" ]]; the
   fi
 
   _ret=0
-  "${_extracted}/install.sh" "$@" || _ret=$?
+  bash "${_extracted}/install.sh" "$@" || _ret=$?
   if [[ "${DC_KEEP_WORKDIR:-0}" -eq 0 ]]; then
     rm -rf "${_tmp}"
   fi
